@@ -1,0 +1,61 @@
+/**
+ * @author José Roberto Saldaña Arrazola
+ * @date 21/03/2022
+
+ * Codigo tecnico: IN5BM
+ * Carné: 2021040
+ * Grupo: 2 (lunes) 
+ */
+
+.mainFxmlClass {
+    -fx-background-radius:5 5 5 5;
+}
+
+#label{
+    -fx-background-color:#e6bf74;
+    -fx-background-radius:5 5 5 5;
+}
+
+#labelOperacion{
+    -fx-background-radius:5 5 5 5;
+}
+
+.botones-operadores{
+    -fx-background-color:#fb9604;
+    -fx-text-fill:#FFFFFF;
+    -fx-background-radius:40 40 40 40;
+}
+
+.botones-operadores:hover{
+    -fx-background-color:#e3e3e3;
+    -fx-text-fill:#fb9604;
+}
+
+.botones-numerico{
+    -fx-background-color:#1a1a1a;
+    -fx-text-fill:#ffffff;
+    -fx-background-radius:40 40 40 40;
+}
+
+.botones-numerico:hover{
+    -fx-background-color:#e3e3e3;
+    -fx-text-fill:#000000;
+}
+
+#boton-ac{
+    -fx-text-fill:red;
+}
+
+#boton-ac:hover{
+    -fx-text-fill:#000000;
+    -fx-background-color:red;
+}
+
+#boton-del{
+    -fx-text-fill:red;
+}
+
+#boton-del:hover{
+    -fx-text-fill:#000000;
+    -fx-background-color:red;
+}
